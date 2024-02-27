@@ -19,9 +19,9 @@ namespace Two_Sum
                 {
                     return new int[] { result[value], i };
                 }
-                result[value] = i;
+                result[nums[i]] = i;
             }
-            return new int[] { };
+            return new int[0];
         }
     }
 }
